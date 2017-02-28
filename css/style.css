@@ -1,0 +1,160 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	/*height: 80px;*/
+	background: rgb(18,46,70);
+	line-height: 80px;
+	padding-bottom: 20px;
+}
+.nav_nav{
+	margin-top: 10px;
+	/*height: 40px;*/
+	overflow: hidden;
+}
+nav{
+	margin-left: 0px !important;
+	float: left;
+	width: 190px;
+}
+.head{
+	float: left;
+	margin-left: 50px;
+}
+.my{
+	float: right;
+	margin-right: 70px;
+}
+.my_name{
+	margin-top: 0px !important;
+	width: 190px;
+	height: 190px;
+	text-align: center;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	padding-top: 35px;
+}
+
+}
+.pic_photo{
+	text-align: center;
+	line-height: normal;
+
+}
+.name{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 3px;
+}
+.menu{
+	height: 80px;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+	padding-top: 12px;
+}
+.menu_icon{
+	text-align: center;
+	display: block;
+	
+}
+.body{
+	float: left;
+	width: calc(100% - 190px);
+	padding-left: 1%;
+}
+.video{
+	/*padding:37px !important;*/
+}
+video{
+	background:  rgb(18,46,70);
+
+	width: 100%
+}
+.btn{
+	/*width: 345px;*/
+    float: right !important;
+    border-radius: 0px !important;
+    height: 40px;
+    background: #2979D4;
+    font-style: 18px;
+    color: white;
+
+}
+.panel{
+	height: 30px;
+	line-height: 30px;
+	border-radius: 0px;
+	background: rgb(18,46,70) !important;
+}
+.event{
+	padding:0 0px 0px 24px;
+	overflow: hidden;
+	margin-top: 22px;
+}
+.e_img{
+	float: left;
+}
+.e_cont{
+	margin-bottom: 0px !important;
+	float: left;
+	margin-left:10px; 
+
+}
+.blue{
+	font-size: 18px;
+	color: blue;
+	margin-bottom: 0px !important;
+}
+.def{
+
+}
+.xx{
+	width: 95%;
+}
+.search{
+	padding-left: 0px !important;
+	float: left !important;
+}
+.add{
+	padding-right: 0px !important;
+}
+.cont_search{
+	margin-top: 50px;
+}
+.cont_event{
+	margin-top: 50px;
+}
+#n{
+	background: rgba(0, 0, 0, 0);
+	float: right;
+	border: none !important;
+}
+.n{
+	/*display: none !important;*/
+	background:rgb(18,46,70);
+	color: white;
+}
+.icon-bar{
+	background: white;
+}
+@media screen and (max-width: 770px) {
+    .my_nav {
+         display: none !important;
+    }
+    .my{
+    	display: none;
+    }
+    .body{
+    	width: 100%;
+    }
+
+}
+@media screen and (min-width: 760px) {
+    .n {
+         display: none !important;
+    }
+    
+    
+
+}
